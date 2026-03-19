@@ -126,8 +126,8 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const PLATFORM_STATS: PlatformStat[] = [
-  { id:"s1", label:"Active Listings",  value:"15,000+", icon:"🏠", description:"Properties available right now" },
-  { id:"s2", label:"Happy Clients",    value:"50,000+", icon:"😊", description:"Satisfied buyers and renters" },
-  { id:"s3", label:"Verified Agents",  value:"1,200+",  icon:"✅", description:"Trusted professionals" },
-  { id:"s4", label:"Cities Covered",   value:"47",      icon:"🌍", description:"Across Kenya" },
+  { id:"s1", label:"Active Listings",  value:"15,000+", description:"Properties available right now" },
+  { id:"s2", label:"Happy Clients",    value:"50,000+", description:"Satisfied buyers and renters" },
+  { id:"s3", label:"Verified Agents",  value:"1,200+", description:"Trusted professionals" },
+  { id:"s4", label:"Cities Covered",   value:"47", description:"Across Kenya" },
 ];

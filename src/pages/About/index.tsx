@@ -67,7 +67,6 @@ const About: React.FC = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {PLATFORM_STATS.map((stat, i) => (
               <FadeIn key={stat.id} delay={i * 0.1} className="text-center">
-                <div className="text-4xl mb-2">{stat.icon}</div>
                 <p className="font-display text-3xl text-ink-900 mb-1">{stat.value}</p>
                 <p className="text-sm font-semibold text-ink-600">{stat.label}</p>
                 {stat.description && <p className="text-xs text-ink-400 mt-1">{stat.description}</p>}
